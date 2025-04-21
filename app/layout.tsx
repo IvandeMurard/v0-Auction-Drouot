@@ -7,8 +7,8 @@ import { LanguageProvider } from "@/lib/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Hôtel Drouot Explorer",
-  description: "Explore and bid on auctions from Hôtel Drouot",
+  title: "L'Enchanteur Drou",
+  description: "Explorez et enchérissez sur des ventes aux enchères",
     generator: 'v0.dev'
 }
 

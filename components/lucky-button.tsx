@@ -3,8 +3,10 @@
 import { useState } from "react"
 import { Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { useLanguage } from "@/lib/language-context"
 
 export function LuckyButton() {
+  const { t } = useLanguage()
   const [isLoading, setIsLoading] = useState(false)
 
   const handleLuckySearch = () => {
@@ -35,9 +37,14 @@ export function LuckyButton() {
   }
 
   return (
-    <Button variant="outline" onClick={handleLuckySearch} disabled={isLoading} className="flex items-center gap-2">
+    <Button
+      variant="outline"
+      onClick={handleLuckySearch}
+      disabled={isLoading}
+      className="flex items-center gap-2 mx-auto"
+    >
       <Sparkles size={16} />
-      {isLoading ? "Finding something special..." : "I'm feeling lucky"}
+      {isLoading ? t("home.lucky.loading") : t("home.lucky.button")}
     </Button>
   )
 }

@@ -150,7 +150,7 @@ export function ChatAssistant() {
                   <div className="flex items-center mb-1">
                     <Avatar className="h-6 w-6 mr-2">
                       <AvatarImage src="/placeholder.svg?height=32&width=32" />
-                      <AvatarFallback>HD</AvatarFallback>
+                      <AvatarFallback>D</AvatarFallback>
                     </Avatar>
                     <span className="text-xs font-medium">{t("chat.title")}</span>
                   </div>

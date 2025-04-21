@@ -6,8 +6,10 @@ import { useState } from "react"
 import { Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { useLanguage } from "@/lib/language-context"
 
 export function SalesBrowser() {
+  const { t } = useLanguage()
   const [query, setQuery] = useState("")
   const [isSearching, setIsSearching] = useState(false)
 
@@ -31,19 +33,17 @@ export function SalesBrowser() {
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
           <Input
             type="text"
-            placeholder="Search for auctions, lots, artists..."
+            placeholder={t("home.search.placeholder")}
             className="pl-10 pr-4 py-3 w-full rounded-l-md border-r-0"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
         <Button type="submit" className="rounded-l-none bg-[#C4151C] hover:bg-[#A01016]" disabled={isSearching}>
-          {isSearching ? "Searching..." : "Search"}
+          {isSearching ? t("home.search.searching") : t("home.search.button")}
         </Button>
       </form>
-      <p className="text-sm text-gray-500 mt-2">
-        Try: "Impressionist paintings", "Jewelry auctions in Paris", "Antique furniture"
-      </p>
+      <p className="text-sm text-gray-500 mt-2">{t("home.search.examples")}</p>
     </div>
   )
 }

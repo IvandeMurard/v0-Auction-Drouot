@@ -13,7 +13,7 @@ type LanguageContextType = {
 const translations = {
   en: {
     // Header
-    "app.title": "Drouot Explorer",
+    "app.title": "Drou Explorer",
     "nav.login": "Login",
     "nav.register": "Register",
     "nav.myAccount": "My Account",
@@ -25,7 +25,7 @@ const translations = {
     "nav.auctionAssistant": "Auction Assistant",
 
     // Home
-    "home.title": "Explore Hôtel Drouot Sales",
+    "home.title": "Explore Auction Sales",
     "home.subtitle": "Discover, bid, and get notified on auction lots that match your interests",
     "home.search.placeholder": "Search for auctions, lots, artists...",
     "home.search.button": "Search",
@@ -66,7 +66,7 @@ const translations = {
     "footer.contact": "Contact",
 
     // AI Tools
-    "aiTools.title": "Drouot AI Tools",
+    "aiTools.title": "Drou AI Tools",
     "aiTools.priceEstimator": "Price Estimator",
 
     // Price Estimator
@@ -83,12 +83,12 @@ const translations = {
     "priceEstimator.confidence.low": "Low Confidence",
     "priceEstimator.reasoning": "Reasoning",
     "priceEstimator.disclaimer":
-      "Note: This is an AI-generated estimate and should be used as a general guide only. For a formal appraisal, please consult with a professional appraiser or contact Hôtel Drouot.",
+      "Note: This is an AI-generated estimate and should be used as a general guide only. For a formal appraisal, please consult with a professional appraiser.",
 
     // Chat Assistant
-    "chat.title": "Drouot Assistant",
+    "chat.title": "Drou Assistant",
     "chat.placeholder": "Type your message...",
-    "chat.welcome": "Welcome to the Drouot Assistant! Ask me anything about auctions, lots, or bidding.",
+    "chat.welcome": "Welcome to the Drou Assistant! Ask me anything about auctions, lots, or bidding.",
     "chat.error": "I'm sorry, I encountered an error. Please try again.",
 
     // Dashboard
@@ -140,7 +140,7 @@ const translations = {
   },
   fr: {
     // Header
-    "app.title": "Explorateur Drouot",
+    "app.title": "L'Enchanteur Drou",
     "nav.login": "Connexion",
     "nav.register": "S'inscrire",
     "nav.myAccount": "Mon Compte",
@@ -152,7 +152,7 @@ const translations = {
     "nav.auctionAssistant": "Assistant d'Enchères",
 
     // Home
-    "home.title": "Explorez les Ventes de l'Hôtel Drouot",
+    "home.title": "Explorez les Ventes aux Enchères",
     "home.subtitle":
       "Découvrez, enchérissez et recevez des notifications sur les lots qui correspondent à vos intérêts",
     "home.search.placeholder": "Rechercher des ventes, lots, artistes...",
@@ -195,7 +195,7 @@ const translations = {
     "footer.contact": "Contact",
 
     // AI Tools
-    "aiTools.title": "Outils IA Drouot",
+    "aiTools.title": "Outils IA Drou",
     "aiTools.priceEstimator": "Estimateur de Prix",
 
     // Price Estimator
@@ -212,13 +212,13 @@ const translations = {
     "priceEstimator.confidence.low": "Confiance Faible",
     "priceEstimator.reasoning": "Raisonnement",
     "priceEstimator.disclaimer":
-      "Note : Ceci est une estimation générée par IA et doit être utilisée uniquement comme guide général. Pour une évaluation formelle, veuillez consulter un expert ou contacter l'Hôtel Drouot.",
+      "Note : Ceci est une estimation générée par IA et doit être utilisée uniquement comme guide général. Pour une évaluation formelle, veuillez consulter un expert.",
 
     // Chat Assistant
-    "chat.title": "Assistant Drouot",
+    "chat.title": "Assistant Drou",
     "chat.placeholder": "Tapez votre message...",
     "chat.welcome":
-      "Bienvenue sur l'Assistant Drouot ! Posez-moi n'importe quelle question sur les ventes, les lots ou les enchères.",
+      "Bienvenue sur l'Assistant Drou ! Posez-moi n'importe quelle question sur les ventes, les lots ou les enchères.",
     "chat.error": "Je suis désolé, j'ai rencontré une erreur. Veuillez réessayer.",
 
     // Dashboard

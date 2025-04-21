@@ -11,8 +11,10 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { useLanguage } from "@/lib/language-context"
 
 export function UserAuthButton() {
+  const { t } = useLanguage()
   // In a real app, this would come from an auth context/provider
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
@@ -20,10 +22,10 @@ export function UserAuthButton() {
     return (
       <div className="flex gap-2">
         <Button variant="outline" size="sm" asChild>
-          <Link href="/login">Login</Link>
+          <Link href="/login">{t("nav.login")}</Link>
         </Button>
         <Button size="sm" className="bg-[#C4151C] hover:bg-[#A01016]" asChild>
-          <Link href="/register">Register</Link>
+          <Link href="/register">{t("nav.register")}</Link>
         </Button>
       </div>
     )
@@ -34,24 +36,24 @@ export function UserAuthButton() {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="flex items-center gap-1">
           <User size={16} />
-          <span>My Account</span>
+          <span>{t("nav.myAccount")}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem asChild>
-          <Link href="/dashboard">Dashboard</Link>
+          <Link href="/dashboard">{t("nav.dashboard")}</Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
-          <Link href="/notifications">Notifications</Link>
+          <Link href="/notifications">{t("nav.notifications")}</Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
-          <Link href="/bidding">My Bids</Link>
+          <Link href="/bidding">{t("nav.myBids")}</Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
-          <Link href="/settings">Settings</Link>
+          <Link href="/settings">{t("nav.settings")}</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => setIsLoggedIn(false)}>Logout</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setIsLoggedIn(false)}>{t("nav.logout")}</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )

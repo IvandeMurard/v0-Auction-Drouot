@@ -5,7 +5,7 @@ export default function AIToolsPage() {
     <div className="min-h-screen bg-white">
       <header className="border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-[#C4151C]">Drouot AI Tools</h1>
+          <h1 className="text-2xl font-bold text-[#C4151C]">Outils IA Drou</h1>
         </div>
       </header>
 
