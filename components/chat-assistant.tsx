@@ -105,6 +105,7 @@ export function ChatAssistant() {
       <Button
         onClick={() => setIsOpen(true)}
         className="fixed bottom-4 right-4 rounded-full w-14 h-14 shadow-lg bg-[#C4151C] hover:bg-[#A01016]"
+        data-chat-button
       >
         <MessageSquare size={24} />
       </Button>
