@@ -13,9 +13,16 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <header className="border-b border-gray-200">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-[#C4151C]">L'Enchanteur Drou</span>
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link href="/" className="flex items-center">
+              <span className="text-2xl font-bold text-[#C4151C]">L'Enchanteur Drou</span>
+            </Link>
+            <nav className="hidden md:flex items-center gap-4">
+              <Link href="/lots" className="text-gray-600 hover:text-gray-900">
+                Lots
+              </Link>
+            </nav>
+          </div>
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
             <UserAuthButton />

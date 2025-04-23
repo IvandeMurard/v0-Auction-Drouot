@@ -1,0 +1,80 @@
+[
+  {
+    "id": "lot-001",
+    "title": "Portrait de femme à la robe bleue",
+    "description": "École française du XVIIIe siècle. Portrait en buste d'une jeune femme vêtue d'une robe de soie bleue, tenant une rose. Huile sur toile. Ce portrait délicat, aux couleurs douces et au regard pensif, incarne l’élégance de l’époque Louis XV.",
+    "artist": "Attribué à l'entourage de Jean-Marc Nattier",
+    "technique": "Huile sur toile",
+    "dimensions": {
+      "height_cm": 65,
+      "width_cm": 54,
+      "weight_kg": null
+    },
+    "estimated_price_eur": {
+      "min": 3000,
+      "max": 5000
+    },
+    "auction_date": "2025-05-12T14:30:00+02:00",
+    "lot_number": 12,
+    "venue": "Hôtel Drouot - Salle 6",
+    "city": "Paris",
+    "auction_house": "Maison Delon-Hoebanx",
+    "image_url": "/images/portrait-femme-bleue.jpg",
+    "categories": ["Peinture", "XVIIIe siècle", "Portrait"],
+    "tags": ["huile sur toile", "femme", "époque Louis XV"],
+    "notification_enabled": true,
+    "language": "fr"
+  },
+  {
+    "id": "lot-002",
+    "title": "Portrait d’homme en uniforme rouge",
+    "description": "Attribué à un peintre britannique du XIXe siècle. Portrait en buste d’un officier en habit rouge, épée au côté. Toile encadrée. L’arrière-plan sombre met en valeur la posture martiale et le regard affirmé du modèle.",
+    "artist": "École anglaise",
+    "technique": "Huile sur toile",
+    "dimensions": {
+      "height_cm": 70,
+      "width_cm": 55,
+      "weight_kg": null
+    },
+    "estimated_price_eur": {
+      "min": 2500,
+      "max": 4000
+    },
+    "auction_date": "2025-05-14T11:00:00+02:00",
+    "lot_number": 7,
+    "venue": "Hôtel Drouot - Salle 3",
+    "city": "Paris",
+    "auction_house": "Bérard & Associés",
+    "image_url": "/images/portrait-homme-rouge.jpg",
+    "categories": ["Peinture", "XIXe siècle", "Militaire"],
+    "tags": ["uniforme", "portrait", "huile"],
+    "notification_enabled": true,
+    "language": "fr"
+  },
+  {
+    "id": "lot-003",
+    "title": "Portrait néoclassique de jeune homme",
+    "description": "École italienne, fin XVIIIe siècle. Portrait d’un jeune homme dans un cadre doré à décor végétal. Vêtement noir et chemise blanche. Influence néoclassique dans le traitement du visage et la simplicité de la composition.",
+    "artist": "Attribué à l'école de Naples",
+    "technique": "Huile sur toile",
+    "dimensions": {
+      "height_cm": 60,
+      "width_cm": 50,
+      "weight_kg": null
+    },
+    "estimated_price_eur": {
+      "min": 2800,
+      "max": 4500
+    },
+    "auction_date": "2025-05-20T10:00:00+02:00",
+    "lot_number": 19,
+    "venue": "Hôtel Drouot - Salle 9",
+    "city": "Paris",
+    "auction_house": "Cabinet Drouot Estimations",
+    "image_url": "/images/portrait-neoclassique.jpg",
+    "categories": ["Portrait", "Italie", "XVIIIe siècle"],
+    "tags": ["neoclassique", "jeune homme", "cadre doré"],
+    "notification_enabled": true,
+    "language": "fr"
+  }
+]
