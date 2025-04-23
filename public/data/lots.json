@@ -1,80 +1,80 @@
 [
   {
-    "id": "lot-001",
-    "title": "Portrait de femme à la robe bleue",
-    "description": "École française du XVIIIe siècle. Portrait en buste d'une jeune femme vêtue d'une robe de soie bleue, tenant une rose. Huile sur toile. Ce portrait délicat, aux couleurs douces et au regard pensif, incarne l’élégance de l’époque Louis XV.",
-    "artist": "Attribué à l'entourage de Jean-Marc Nattier",
-    "technique": "Huile sur toile",
-    "dimensions": {
-      "height_cm": 65,
-      "width_cm": 54,
-      "weight_kg": null
-    },
-    "estimated_price_eur": {
-      "min": 3000,
-      "max": 5000
-    },
-    "auction_date": "2025-05-12T14:30:00+02:00",
-    "lot_number": 12,
-    "venue": "Hôtel Drouot - Salle 6",
-    "city": "Paris",
-    "auction_house": "Maison Delon-Hoebanx",
+    "id": "001",
+    "title": "Portrait d’une femme au châle bleu",
+    "description": "Huile sur toile, dans un style néo-classique. Représente une femme en buste, vêtue d’un châle bleu. Belle lumière sur le visage, regard mélancolique.",
     "image_url": "/images/portrait-femme-bleue.jpg",
-    "categories": ["Peinture", "XVIIIe siècle", "Portrait"],
-    "tags": ["huile sur toile", "femme", "époque Louis XV"],
-    "notification_enabled": true,
-    "language": "fr"
+    "auction_date": "2025-05-12T14:00:00",
+    "venue": "Hôtel Drouot – Salle 7",
+    "estimated_price_eur": { "min": 3000, "max": 5000 },
+    "dimensions": { "height_cm": 65, "width_cm": 50 },
+    "weight_kg": 2.5,
+    "auction_house": "Millon & Associés",
+    "city": "Paris"
   },
   {
-    "id": "lot-002",
-    "title": "Portrait d’homme en uniforme rouge",
-    "description": "Attribué à un peintre britannique du XIXe siècle. Portrait en buste d’un officier en habit rouge, épée au côté. Toile encadrée. L’arrière-plan sombre met en valeur la posture martiale et le regard affirmé du modèle.",
-    "artist": "École anglaise",
-    "technique": "Huile sur toile",
-    "dimensions": {
-      "height_cm": 70,
-      "width_cm": 55,
-      "weight_kg": null
-    },
-    "estimated_price_eur": {
-      "min": 2500,
-      "max": 4000
-    },
-    "auction_date": "2025-05-14T11:00:00+02:00",
-    "lot_number": 7,
-    "venue": "Hôtel Drouot - Salle 3",
-    "city": "Paris",
-    "auction_house": "Bérard & Associés",
+    "id": "002",
+    "title": "Portrait d’un homme au fond rouge",
+    "description": "Portrait d’un homme barbu, en buste, sur fond rouge. Huile sur toile, encadrée. Signée en bas à droite, époque XIXe.",
     "image_url": "/images/portrait-homme-rouge.jpg",
-    "categories": ["Peinture", "XIXe siècle", "Militaire"],
-    "tags": ["uniforme", "portrait", "huile"],
-    "notification_enabled": true,
-    "language": "fr"
+    "auction_date": "2025-05-13T15:00:00",
+    "venue": "Hôtel Drouot – Salle 9",
+    "estimated_price_eur": { "min": 2000, "max": 3500 },
+    "dimensions": { "height_cm": 70, "width_cm": 55 },
+    "weight_kg": 3.0,
+    "auction_house": "Ader Nordmann",
+    "city": "Paris"
   },
   {
-    "id": "lot-003",
-    "title": "Portrait néoclassique de jeune homme",
-    "description": "École italienne, fin XVIIIe siècle. Portrait d’un jeune homme dans un cadre doré à décor végétal. Vêtement noir et chemise blanche. Influence néoclassique dans le traitement du visage et la simplicité de la composition.",
-    "artist": "Attribué à l'école de Naples",
-    "technique": "Huile sur toile",
-    "dimensions": {
-      "height_cm": 60,
-      "width_cm": 50,
-      "weight_kg": null
-    },
-    "estimated_price_eur": {
-      "min": 2800,
-      "max": 4500
-    },
-    "auction_date": "2025-05-20T10:00:00+02:00",
-    "lot_number": 19,
-    "venue": "Hôtel Drouot - Salle 9",
-    "city": "Paris",
-    "auction_house": "Cabinet Drouot Estimations",
+    "id": "003",
+    "title": "Portrait néo-classique au fond olive",
+    "description": "Huile sur toile représentant un homme vêtu à l’antique, style néo-classique. Teintes chaudes, fond vert olive, socle apparent.",
     "image_url": "/images/portrait-neoclassique.jpg",
-    "categories": ["Portrait", "Italie", "XVIIIe siècle"],
-    "tags": ["neoclassique", "jeune homme", "cadre doré"],
-    "notification_enabled": true,
-    "language": "fr"
+    "auction_date": "2025-05-15T10:30:00",
+    "venue": "Hôtel Drouot – Salle 3",
+    "estimated_price_eur": { "min": 2500, "max": 4000 },
+    "dimensions": { "height_cm": 60, "width_cm": 45 },
+    "weight_kg": 2.8,
+    "auction_house": "Piasa",
+    "city": "Paris"
+  },
+  {
+    "id": "004",
+    "title": "Masque rituel Fang, Gabon",
+    "description": "Masque en bois sculpté, recouvert de kaolin, utilisé dans les rites funéraires Fang. Belle patine d’usage, anciens pigments rouges visibles.",
+    "image_url": "/images/masque-fang.jpg",
+    "auction_date": "2025-05-17T14:30:00",
+    "venue": "Hôtel Drouot – Salle 5",
+    "estimated_price_eur": { "min": 2500, "max": 3500 },
+    "dimensions": { "height_cm": 45, "width_cm": 19, "depth_cm": 12 },
+    "weight_kg": 1.2,
+    "auction_house": "Binoche & Giquello",
+    "city": "Paris"
+  },
+  {
+    "id": "005",
+    "title": "Composition géométrique sur fond jaune – 2023",
+    "description": "Acrylique sur toile. Formes géométriques colorées sur fond jaune vif. Abstraction contemporaine, signée.",
+    "image_url": "/images/composition-jaune.jpg",
+    "auction_date": "2025-05-22T16:00:00",
+    "venue": "Hôtel Drouot – Salle 8",
+    "estimated_price_eur": { "min": 1200, "max": 1800 },
+    "dimensions": { "height_cm": 80, "width_cm": 80 },
+    "weight_kg": 2.5,
+    "auction_house": "Cornette de Saint Cyr",
+    "city": "Paris"
+  },
+  {
+    "id": "006",
+    "title": "Buste d’homme en marbre blanc – XIXe siècle",
+    "description": "Sculpture en marbre représentant un homme barbu drapé à l’antique. Belle qualité d’exécution, socle noir.",
+    "image_url": "/images/buste-marbre.jpg",
+    "auction_date": "2025-05-28T11:00:00",
+    "venue": "Hôtel Drouot – Salle 2",
+    "estimated_price_eur": { "min": 4500, "max": 6000 },
+    "dimensions": { "height_cm": 60, "width_cm": 35, "depth_cm": 30 },
+    "weight_kg": 18,
+    "auction_house": "Chayette & Cheval",
+    "city": "Paris"
   }
 ]
