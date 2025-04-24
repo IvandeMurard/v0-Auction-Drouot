@@ -5,7 +5,7 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ivandemurard-hotmailfrs-projects/v0-hotel-drouot-tool)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HqJ4XVIcg5t)
 
-Ce projet s'inspire de MyMet https://my-met.vercel.app/ et propose un outil pour aider à la gestion des enchères d’objets d'art (Hôtel Drouot), avec un agent pour suivre et placer des enchères automatiquement.
+Ce projet s'inspire de MyMet https://my-met.vercel.app/ et propose un outil pour prompter la collection de l'Hôtel Drouot et aider à la gestion des enchères d’objets d'art via un agent pour suivre et placer des enchères automatiquement.
 
 ## Overview
 
